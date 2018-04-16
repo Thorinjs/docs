@@ -5,7 +5,9 @@
   "scripts": {
     "setup": "node app.js --setup=all",
     "build": "npm update && node app.js --env=production --compile=true",
-    "start": "node app.js"
+    "start": "node app.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "nunjucks": "^2.4.2",
@@ -14,9 +16,11 @@
     "thorin-plugin-render": "^1.x",
     "thorin-plugin-sass": "^1.x",
     "thorin-plugin-static-html": "^1.x",
-    "thorin-transport-http": "^1.x"
+    "thorin-transport-http": "^1.x",
+    "snyk": "^1.71.0"
   },
   "engines": {
     "node": ">= 4.x"
-  }
+  },
+  "snyk": true
 }
