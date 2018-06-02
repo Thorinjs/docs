@@ -12,7 +12,6 @@
     "thorin": "^1.x",
     "thorin-plugin-docs": "^1.x",
     "thorin-plugin-render": "^1.x",
-    "thorin-plugin-sass": "^1.x",
     "thorin-plugin-static-html": "^1.x",
     "thorin-transport-http": "^1.x"
   },
