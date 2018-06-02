@@ -17,6 +17,6 @@
     "thorin-transport-http": "^1.x"
   },
   "engines": {
-    "node": ">= 4.x"
+    "node": ">= 8.x"
   }
 }
