@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "setup": "node app.js --setup=all",
-    "build": "npm update && node app.js --env=production --compile=true",
+    "build": "node app.js --env=production --compile=true",
     "start": "node app.js"
   },
   "dependencies": {
