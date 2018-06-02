@@ -7,7 +7,7 @@ const thorin = require('thorin'),
 
 thorin
   .addTransport(require('thorin-transport-http'))
-  .addPlugin(require('thorin-plugin-sass'))
+  //.addPlugin(require('thorin-plugin-sass'))
   .addPlugin(require('thorin-plugin-render'));
 
 let isCompiling = thorin.argv('compile');
