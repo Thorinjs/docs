@@ -5,15 +5,3 @@
    ga('create', 'UA-61274594-9', 'auto');
    ga('send', 'pageview');
 </script>#}
-
-<script>
-  (function(d,s,i,w,o){
-    var js,cjs=d.getElementsByTagName(s)[0];
-    if(d.getElementById(i))return;
-    js=d.createElement('script');
-    js.id=i;
-    js.src="https://widget.clym.io/clym.js";
-    js.onload=function(){Clym&&Clym.load(i,w,o);};
-    cjs.parentNode.insertBefore(js, cjs);
-  }(document,'script','clym-privacy','1c3fca6beabf4931b49c698dUxpBBKhS'));
-</script>
