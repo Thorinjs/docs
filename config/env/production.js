@@ -1,5 +1,5 @@
 'use strict';
 module.exports = {
-  "cdn": "https://d8a3t77ohtkk9.cloudfront.net",
+  "cdn": "",
   "transport.http.port": 13000
 };
